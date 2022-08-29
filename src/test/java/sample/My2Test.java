@@ -27,13 +27,13 @@ public class My2Test {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups="smoke")
 	public void ogibibologin()
 	{
 		driver.get("https://www.goibibo.com/");
 	}
 	
-	@Test
+	@Test(groups="regression")
 	public void flipkartlogin()
 	{
 		driver.get("https://www.flipkart.com/");
