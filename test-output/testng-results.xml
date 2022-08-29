@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20035" started-at="2022-08-27T16:43:29 IST" finished-at="2022-08-27T16:43:49 IST">
+    <groups>
+      <group name="regression">
+        <method signature="My2Test.flipkartlogin()[pri:0, instance:sample.My2Test@6eceb130]" name="flipkartlogin" class="sample.My2Test"/>
+        <method signature="MyTest.facebooklogin()[pri:0, instance:sample.MyTest@1786f9d5]" name="facebooklogin" class="sample.MyTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="My2Test.ogibibologin()[pri:0, instance:sample.My2Test@6eceb130]" name="ogibibologin" class="sample.My2Test"/>
+        <method signature="MyTest.makemytriplogin()[pri:0, instance:sample.MyTest@1786f9d5]" name="makemytriplogin" class="sample.MyTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="20035" started-at="2022-08-27T16:43:29 IST" finished-at="2022-08-27T16:43:49 IST">
+      <class name="sample.MyTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:sample.MyTest@1786f9d5]" name="precondition" is-config="true" duration-ms="4715" started-at="2022-08-27T16:43:29 IST" finished-at="2022-08-27T16:43:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="facebooklogin()[pri:0, instance:sample.MyTest@1786f9d5]" name="facebooklogin" duration-ms="1205" started-at="2022-08-27T16:43:34 IST" finished-at="2022-08-27T16:43:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklogin -->
+        <test-method status="PASS" signature="makemytriplogin()[pri:0, instance:sample.MyTest@1786f9d5]" name="makemytriplogin" duration-ms="3970" started-at="2022-08-27T16:43:35 IST" finished-at="2022-08-27T16:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makemytriplogin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:sample.MyTest@1786f9d5]" name="postcondition" is-config="true" duration-ms="832" started-at="2022-08-27T16:43:39 IST" finished-at="2022-08-27T16:43:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- sample.MyTest -->
+      <class name="sample.My2Test">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:sample.My2Test@6eceb130]" name="precondition" is-config="true" duration-ms="1689" started-at="2022-08-27T16:43:40 IST" finished-at="2022-08-27T16:43:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="flipkartlogin()[pri:0, instance:sample.My2Test@6eceb130]" name="flipkartlogin" duration-ms="2636" started-at="2022-08-27T16:43:42 IST" finished-at="2022-08-27T16:43:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartlogin -->
+        <test-method status="PASS" signature="ogibibologin()[pri:0, instance:sample.My2Test@6eceb130]" name="ogibibologin" duration-ms="4075" started-at="2022-08-27T16:43:44 IST" finished-at="2022-08-27T16:43:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ogibibologin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:sample.My2Test@6eceb130]" name="postcondition" is-config="true" duration-ms="812" started-at="2022-08-27T16:43:49 IST" finished-at="2022-08-27T16:43:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- sample.My2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
