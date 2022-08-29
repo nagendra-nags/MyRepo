@@ -27,13 +27,13 @@ public class MyTest extends baseclass {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(groups="regression")
 	public void facebooklogin()
 	{
 		driver.get("https://www.facebook.com/");
 	}
 	
-	@Test
+	@Test(groups="smoke")
 	public void makemytriplogin()
 	{
 		driver.get("https://www.makemytrip.com/");
