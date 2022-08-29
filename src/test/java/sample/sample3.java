@@ -1,8 +1,16 @@
 package sample;
 
-public class sample3 {
-	public static void main(String[] args) {
-		System.out.println("guru is great");
-	}
+import org.testng.annotations.Test;
 
+public class sample3 extends baseclass{
+	@Test(groups="smoke")
+	public void guru()
+	{
+		driver.get("https://www.facebook.com/");
+	}
+	@Test(groups="smoke")
+	public void guru1()
+	{
+		driver.get("https://www.makemytrip.com/");
+	}
 }

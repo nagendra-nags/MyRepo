@@ -1,8 +1,16 @@
 package sample;
 
-public class sample2 {
-	public static void main(String[] args) {
-		System.out.println("hello git");
-	}
+import org.testng.annotations.Test;
 
+public class sample2 extends baseclass{
+	@Test(groups="smoke")
+	public void git()
+	{
+		driver.get("https://www.goibibo.com/");
+	}
+	@Test(groups="regression")
+	public void github()
+	{
+		driver.get("https://www.flipkart.com/");
+	}
 }
