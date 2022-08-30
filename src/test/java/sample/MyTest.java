@@ -6,19 +6,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MyTest extends baseclass {
+public class MyTest  {
 	WebDriver driver;
+	
 	@BeforeClass
-	public void precondition()
-	{
+	public void precondition() {
+	
+	
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	@AfterClass
@@ -28,10 +29,13 @@ public class MyTest extends baseclass {
 	}
 	
 	@Test(groups="regression")
-	public void facebooklogin()
+	public void facebooklogin() throws InterruptedException
 	{
+		
 		driver.get("https://www.facebook.com/");
+		Thread.sleep(2000);
 	}
+	
 	
 	@Test(groups="smoke")
 	public void makemytriplogin()
