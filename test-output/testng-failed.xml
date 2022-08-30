@@ -8,16 +8,16 @@
       </run>
     </groups>
     <classes>
-      <class name="sample.MyTest">
-        <methods>
-          <include name="makemytriplogin"/>
-        </methods>
-      </class> <!-- sample.MyTest -->
       <class name="sample.My2Test">
         <methods>
           <include name="ogibibologin"/>
         </methods>
       </class> <!-- sample.My2Test -->
+      <class name="sample.MyTest">
+        <methods>
+          <include name="makemytriplogin"/>
+        </methods>
+      </class> <!-- sample.MyTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
