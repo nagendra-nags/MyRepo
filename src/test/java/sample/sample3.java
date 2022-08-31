@@ -28,9 +28,10 @@ public class sample3 {
 	}
 
 	@Test(groups="smoke")
-	public void guru()
+	public void gurum()
 	{
 		driver.get("https://www.facebook.com/");
+		
 	}
 	@Test(groups="smoke")
 	public void guru1()
